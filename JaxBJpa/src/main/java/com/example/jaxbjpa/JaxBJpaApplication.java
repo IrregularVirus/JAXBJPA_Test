@@ -32,7 +32,7 @@ public class JaxBJpaApplication {
         marshallerObj.marshal(emp3, new FileOutputStream("employee3.xml"));
         marshallerObj.marshal(emp4, new FileOutputStream("employee4.xml"));
     }
-/*
+
     @Bean
     public CommandLineRunner run(EmployeeRepository repository) {
         return (args -> {
@@ -46,5 +46,5 @@ public class JaxBJpaApplication {
     private void insertJavaAdvocates(EmployeeRepository repository){
         repository.save(new Employee("A", "M"));
     }
-*/
+
 }
